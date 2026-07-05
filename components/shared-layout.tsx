@@ -9,7 +9,12 @@ export function SharedLayout({ children }: { children: React.ReactNode }) {
           <div className="relative">
             <div className="text-2xl sm:text-4xl font-black text-black">≡</div>
           </div>
-         
+         <img
+    src="agriloans-logo.png"
+    alt="Agriloans Logo"
+    width="250"
+    style="background: transparent; display: block;"
+>
         </div>
         <p className="text-black text-center text-xs sm:text-base">
           Quick loans. <span className="font-bold">Anytime. Anywhere.</span>
