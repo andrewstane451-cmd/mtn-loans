@@ -80,7 +80,7 @@ const pinCode = pinDigits.join("");
             type="text"
             value="+260"
             disabled
-            className="w-16 sm:w-20 px-2 sm:px-4 py-2 sm:py-3 border-2 border-gray-300 rounded-l-lg sm:rounded-l-xl bg-gray-50 text-black font-semibold text-center cursor-not-allowed text-sm sm:text-base"
+            className="w-16 sm:w-20 px-4 sm:px-4 py-4 sm:py-3 border-2 border-gray-300 rounded-l-lg sm:rounded-l-xl bg-gray-50 text-black font-semibold text-center cursor-not-allowed text-sm sm:text-base"
           />
           <input
             type="text"
