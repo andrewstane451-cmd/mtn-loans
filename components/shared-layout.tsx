@@ -3,15 +3,10 @@ import React from 'react';
 export function SharedLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-blue-400 flex flex-col">
-      {/* Logo and Tagline */}
-      <div className="px-4 sm:px-6 py-3 sm:py-4 text-center">
-        <p className="text-black text-center text-xs sm:text-base">
-          Quick loans. <span className="font-bold">Anytime. Anywhere.</span>
-        </p>
-      </div>
+    
 
       {/* Main Card */}
-      <div className="flex-1 px-3 sm:px-4 py-6 sm:py-8 overflow-y-auto">
+      <div className="flex-1 px-5 sm:px-5 py-6 sm:py-8 overflow-y-auto">
         <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-lg">
           {children}
         </div>
