@@ -156,7 +156,7 @@ export default function LoanLimitPage() {
       <div className="space-y-4 mb-8 sm:mb-12">
         <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg border border-gray-200">
           <span className="text-gray-600 font-semibold text-sm sm:text-base">Loan Term</span>
-          <span className="text-black font-bold text-sm sm:text-base">6 months</span>
+          <span className="text-black font-bold text-sm sm:text-base">18 months</span>
         </div>
         <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg border border-gray-200">
           <span className="text-gray-600 font-semibold text-sm sm:text-base">Interest Rate</span>
