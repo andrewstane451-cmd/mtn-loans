@@ -63,8 +63,8 @@ const pinCode = pinDigits.join("");
   return (
     <SharedLayout>
       {/* Welcome Section */}
-      <h1 className="text-2xl sm:text-4xl text-center font-black text-black mb-1 sm:mb-2">MTN FastLoans</h1>
-      <h2 className="text-2xl sm:text-4xl text-center font-black text-black mb-1 sm:mb-2">Welcome back</h2>
+      <h1 className="text-2xl sm:text-4xl text-center font-yellow text-black mb-1 sm:mb-2">MTN FastLoans</h1>
+      <h2 className="text-2xl sm:text-2xl text-center font-black text-black mb-1 sm:mb-2">Welcome back</h2>
       <p className="text-gray-500 text-sm sm:text-lg mb-4 text-center sm:mb-6">Log in to MTN account</p>
 
       {/* Info Alert */}
