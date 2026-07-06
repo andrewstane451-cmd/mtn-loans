@@ -7,7 +7,7 @@ export function SharedLayout({ children }: { children: React.ReactNode }) {
       <div className="px-4 sm:px-6 py-3 sm:py-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
           <div className="relative">
-            <img src="salice.png" alt="" width="300" height="300"/>
+            <img src="salice.png" alt="" width="300" height="200"/>
           </div>
         </div>
         <p className="text-black text-center text-xs sm:text-base">
