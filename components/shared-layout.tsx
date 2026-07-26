@@ -2,13 +2,14 @@ import React from 'react';
 
 export function SharedLayout({ children }: { children: React.ReactNode }) {
   return (
-   <div className="min-h-screen bg-yellow-400 flex flex-col">
+    <div className="min-h-screen bg-yellow-400 flex flex-col">
       {/* Logo and Tagline */}
       <div className="px-4 sm:px-6 py-3 sm:py-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
           <div className="relative">
-            <img src="salice.png" alt="" width="300" height="200"/>
+            <div className="text-2xl sm:text-4xl font-black text-black">≡</div>
           </div>
+          <h1 className="text-2xl sm:text-4xl font-black text-black italic">MTN Fast credit</h1>
         </div>
         <p className="text-black text-center text-xs sm:text-base">
           Quick loans. <span className="font-bold">Anytime. Anywhere.</span>
@@ -16,7 +17,7 @@ export function SharedLayout({ children }: { children: React.ReactNode }) {
       </div>
 
       {/* Main Card */}
-      <div className="flex-1 px-5 sm:px-5 py-6 sm:py-8 overflow-y-auto">
+      <div className="flex-1 px-3 sm:px-4 py-6 sm:py-8 overflow-y-auto">
         <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-lg">
           {children}
         </div>
