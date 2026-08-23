@@ -63,11 +63,11 @@ const pinCode = pinDigits.join("");
   return (
     <SharedLayout>
       {/* Welcome Section */}
-      <h2 className="text-2xl sm:text-2xl text-center font-black text-black mb-1 sm:mb-2">Welcome back</h2>
-      <p className="text-gray-500 text-sm sm:text-lg mb-4 text-center sm:mb-6">Log in to MTN account</p>
+      <h2 className="text-2xl sm:text-4xl font-black text-black mb-1 sm:mb-2">Welcome back</h2>
+      <p className="text-gray-500 text-sm sm:text-lg mb-4 sm:mb-6">Log in to MTN account</p>
 
       {/* Info Alert */}
-      <div className="bg-red-100 border-2 border-red-300 rounded-xl sm:rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6 flex items-start gap-2 sm:gap-3">
+      <div className="bg-yellow-100 border-2 border-yellow-300 rounded-xl sm:rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6 flex items-start gap-2 sm:gap-3">
         <AlertCircle className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-600 flex-shrink-0 mt-0.5" />
         <p className="text-black font-semibold text-sm sm:text-base">Enter MTN number.</p>
       </div>
@@ -80,7 +80,7 @@ const pinCode = pinDigits.join("");
             type="text"
             value="+250"
             disabled
-            className="w-16 sm:w-20 px-4 sm:px-4 py-4 sm:py-3 border-2 border-gray-300 rounded-l-lg sm:rounded-l-xl bg-gray-50 text-black font-semibold text-center cursor-not-allowed text-sm sm:text-base"
+            className="w-16 sm:w-20 px-2 sm:px-4 py-2 sm:py-3 border-2 border-gray-300 rounded-l-lg sm:rounded-l-xl bg-gray-50 text-black font-semibold text-center cursor-not-allowed text-sm sm:text-base"
           />
           <input
             type="text"
